@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../css/FontsFree-Net-D-DIN-Bold-1.ttf);
+}
+
+@font-face {
+  font-family: D-DIN-Regular;
+  src: url(../css/D-DIN.otf);
+}
+
+html {
+  font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+  color: #feffff;
+  background-color: #02040d;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: transparent;
+  position: absolute;
+  color: #feffff;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  margin-left: 60px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: #feffff;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #feffff;
+}
+
+.nav-left,
+.nav-right {
+  font-size: 14px;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-left {
+  margin-right: 30px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-left: 165px;
+}
+
+.section1 {
+  background-image: url(../img/Homepage_Starlink_SLC_40_Desktop_5b1e6b5dd0.jpg);
+}
+
+.section2 {
+  background-image: url(../img/Desktop_launches_fa37a114ad.jpg);
+}
+
+.section3 {
+  background-image: url(../img/Starlink_G11_10_Streak_7246_7248_Desktop_c6abb12e76.jpg);
+}
+
+.section4 {
+  background-image: url(../img/Maxar_3_titusville_DSC_9200_desktop_31a60c6f5e.jpg);
+}
+
+.section5 {
+  background-image: url(../img/Flight_7_Website_Desktop_7_4afb3a9d9a.jpg);
+}
+
+.section6 {
+  background-image: url(../img/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+}
+
+.section7 {
+  background-image: url(../img/make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-family: D-DIN-Regular;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+
+.heading {
+  font-size: 47px;
+  margin-bottom: 28px;
+}
+
+.button {
+  color: #feffff;
+  background-color: transparent;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 18px 0;
+  border: 2px solid #feffff;
+  width: 163px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  margin: 110px 110px;
+}
+
+.next-pg-btn {
+  width: 40px;
+  color: #feffff;
+  margin-right: 48.5%;
+  align-self: flex-end;
+  margin-bottom: 50px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 13px;
+  height: 80px;
+}
+
+footer p span{
+  font-weight: light;
+  margin-right: 30px;
+}
+
+footer p a{
+  color: #feffff;
+  text-decoration: none;
+  margin-right: 30px;
+}
